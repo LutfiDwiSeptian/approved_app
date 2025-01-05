@@ -27,7 +27,7 @@ Route::group(['middleware'=>'auth:direktur'], function(){
 Route::group(['middleware'=>'auth:manager'], function(){
     Route::get('/manager/home', [DashboardManagerController::class, 'index'])->name('manager.dashboard.index');
     
-});
+}); 
 Route::group(['middleware'=>'auth:karyawan'], function(){
     Route::get('/karyawan/home',[DashboardKaryawanController::class, 'index'])->name('karyawan.dashboard.index');
     

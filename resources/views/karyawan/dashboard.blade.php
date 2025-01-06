@@ -11,14 +11,14 @@
 <div class="p-4 shadow-4 rounded-3 card" style="background-color: hsl(0, 0%, 94%);">
     <div class="card-body">
         <h2>Login as Karyawan </h2>
-        <h2>Halo</h2>
+        <h2>Halo {{$name}}</h2>
     <p>
       This is a simple hero unit, a simple jumbotron-style component for calling extra
       attention to featured content or information.
     </p>
-  
+
     <hr class="my-4" />
-  
+
     <p>
       It uses utility classes for typography and spacing to space content out within the
       larger container.
